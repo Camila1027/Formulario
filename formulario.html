@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> FORMULARIO </h1>
+    <form action="#" method="#">
+        <p>ingrese usuaario</p><br>
+        <input type="text" maxlength="11">
+        <p>Escriba contraseña</p>
+        <input type="password">
+        <br>
+        <input type="submit">
+        <input type="reset">
+
+        <p>Escriba sus quejas y reclamos: </p>
+        <textarea name="" id=" cols="30" rows="10" maxlength="200"></textarea>
+        
+        <p>ingrese su e-mail:</p>
+        <input type="email" required>
+        
+        <p>Fecha:</p>
+        <input type="date">
+        <input type="range">
+        <input type="color">
+        <input type="number" min="10"  max="10"><br>
+        <br>
+
+        <input type="text" id="colores" list="mascolores">
+        <datalist id="mascolores">
+            <option value="blanco"></option>
+            <option value="azul"></option>
+            <option value="verde"></option>
+            <option value="rojo"></option>
+            <option value="blanco"></option>
+            <option value="XXX"></option>
+        </datalist>
+        <br>
+        <input type="checkbox">
+        <input type="checkbox">
+        <input type="radio">
+        
+        <br>
+        <select name="nombre" id="">
+            <option value="carlos">Carlos</option>
+            <option value="marcela">Marcela</option>
+            <option value="diana">Diana</option>
+            <option value="maria">Maria</option>
+            <option value="pablo">Pablo</option>
+            <option value="laura">Laura</option>
+            <option value="pedro">Pedro</option>
+        </select>
+        <br><br>
+        <select name="nombre" id="" multiple>
+            <optgroup label="frutas">
+                <option value="carlos">Carlos</option>
+                <option value="marcela">Marcela</option>
+                <option value="diana">Diana</option>
+            </optgroup>
+
+            <optgroup label="frutas">
+                <option value="maria">Maria</option>
+                <option value="pablo">Pablo</option>
+                <option value="laura">Laura</option>
+                <option value="pedro">Pedro</option>
+            </optgroup>
+            
+        </select>
+        <br>
+        <input type="submit">
+        <br>
+        <button type="submit"> 
+            <img src="https://cdn.icon-icons.com/icons2/215/PNG/256/email-send256_25228.png " width="20" height="20" alt="">
+        </button>
+        <p>Seleccione una imagen</p>
+        <input type="file"><br>
+    </form>
+    <br>
+    <video src="https://youtu.be/P2LLC2GyOlo?t=1" controls></video>
+    <br>
+    <audio src="gallo.mp3" controls></audio>
+</body>
+</html>
